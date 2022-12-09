@@ -2,7 +2,7 @@
 $driver="mysql";
 $servername="localhost";
 $username="root";
-$password="secret";
+$password="";
 $database="test";//db_name
 $charset="utf8";
 // $options=[PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
