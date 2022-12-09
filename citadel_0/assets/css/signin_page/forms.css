@@ -1,0 +1,47 @@
+h1,label{
+    color: snow;
+}h1{
+    text-align: center;
+}
+form{
+    margin: auto;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding-top: 10px;
+}
+
+form a{
+    color: snow;
+
+}form a:hover{
+    color: orangered;
+    transition: all 0.6s;
+}
+form input{
+    padding: 6px 5px;
+    font-size: 18px;
+    color: snow;
+    border: 1px dashed snow;
+    background: none;
+    border-radius: 5px;
+}
+form input[type="submit"]{
+    cursor: pointer;
+    color: snow;
+    font-weight: 800;
+    display: block;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    border: 1px dashed snow;
+    background: none;
+    border-radius: 5px;
+    transition: all 0.6s;
+}form input[type="submit"]:hover{
+    border-radius: 25px;
+    border: 1px solid orangered;
+    color: orangered;
+    transition: all 0.6s;
+}
